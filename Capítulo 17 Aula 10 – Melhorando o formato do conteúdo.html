@@ -80,14 +80,39 @@
                 min-width: 300px;
                 margin: 0px auto 30px auto;
                 max-width: 1000px;
-                padding: 5px;
+                padding: 20px;
             }
             main h1 {
                 color: var(--cor5);
                 font-family: var(--font-android);
+                font-size: 26px;
+            }
+            main p {
+                line-height: 2em;
+                margin: 15px 0px;
+                text-align: justify;
+                text-indent: 30px;
+            }
+            main strong {
+                color: var(--cor4);
+            }
+            main a {
+                background: var(--cor1);
+                color: var(--cor5);
+                font-weight: bold;
+                padding: 2px 6px;
+                text-decoration: none;
+            }
+            main a:hover {
+                color: var(--cor4);
+                text-decoration: underline;
             }
             main h2 {
+                background-image: linear-gradient(to right, var(--cor1), white);
+                color: var(--cor4);
                 font-family: var(--font-android);
+                font-size: 18px;
+                padding: 1px 10px;
             }
             main img {
                 width: 100%;
@@ -95,12 +120,26 @@
             img.pequena {
                 display: block;
                 margin: auto;
-                max-width: 50%;
+                max-width: 350px;
             }
 
             footer {
                 background: var(--cor5);
                 color: white;
+            }
+
+            @media only screen and (min-width: 700px) {
+                header nav {
+                    text-align: left;
+                }
+                a > li {
+                    border-radius: 5px;
+                    padding: 5px 10px;
+                }
+                a > li:hover {
+                    background: var(--cor2);
+                    text-decoration: underline;
+                }
             }
         </style>
     </head>
@@ -207,4 +246,21 @@
 <!-- 
     Tópicos desse vídeo:
     
+    00:00 - Módulo 02, Capítulo 17, aula 10
+    00:16 - Melhorando o conteúdo do desafio
+    01:00 - Hospedagem + treinamento + desenvolvimento
+    02:46 - Corrigindo um problema prévio
+    03:35 - Tamanho máximo e mínimo de imagem
+    04:52 - Configurando os parágrafos
+    06:18 - Alinhamento do texto
+    07:13 - Indentando os parágrafos
+    07:30 - Mudando o espaçamento entre linhas
+    09:30 - Configurando os textos em destaque
+    10:50 - Configurando o formato dos links
+    11:50 - Usando o hover nos links
+    12:41 - Formatando os títulos
+    13:14 - Criando gradientes para transparências
+    14:43 - Revisando o exercício
+    15:47 - Seja avisado quando sair aula nova
+    16:24 - Vamos continuar em breve
  -->
